@@ -1,5 +1,7 @@
 import sqlite3
 
+
+# creating the database and the transactions table
 conn = sqlite3.connect("database/finance.db")
 cursor = conn.cursor()
 
